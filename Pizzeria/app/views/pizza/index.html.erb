@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>La pizzeria</title>
+	</head>
+	<body>
+		
+		<h1> PIZZERIA MARCO ANTONIO</h1>
+		
+		<form action="/pizza/pedido" method="get" accept-charset="utf-8">
+		  
+			  Dirección: <input type="text" name="direccion"/><br />
+			  Teléfono: <input type="tel" name="telefono"/><br />
+			  Tamaño pizza:  <br />
+			  <select name="tamaño">
+			  	<option> Pequeña </option> 
+			  	<option> Mediana</option>
+			  	<option> Familiar </option>
+			  </select><br />
+			  INGREDIENTES:<br />
+			  
+			   <input type="checkbox" name="ingredientes[]" value="Anchoas"/> Anchoas <br />
+			    <input type="checkbox" name="ingredientes[]" value="Piña"/> Piña 
+			     <input type="checkbox" name="ingredientes[]" value="Jamon"/> Jamón 
+
+			  <input type="submit" value="Pedir"/> 
+		</form>
+		
+		
+		
+	</body>
+	
+</html>

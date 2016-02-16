@@ -1,0 +1,19 @@
+<h1>Pedido Pizza</h1>
+
+
+Direccion: <%=@direccion%>
+<br>
+Telefono: <%=@telefono%>
+<br>
+Tamaño Pizza: <%=@pizza.tamaño%>
+<br>
+Ingredientes:<br />
+<%
+for ingrediente in @pizza.ingredientes
+%>
+	<h3><%=ingrediente%></h3>
+<%
+end
+%>
+<br>
+El precio total de la pizza es: <%=@pizza.precio%>

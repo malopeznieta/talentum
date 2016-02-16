@@ -1,0 +1,344 @@
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2016-02-06 15:22:51 +0100
+Processing by PizzaController#index as HTML
+  Rendered pizza/index.html.erb (18.9ms)
+Completed 200 OK in 185ms (Views: 116.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2016-02-06 16:37:22 +0100
+Processing by PizzaController#index as HTML
+  Rendered pizza/index.html.erb (0.0ms)
+Completed 200 OK in 43ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2016-02-06 16:39:04 +0100
+Processing by PizzaController#index as HTML
+  Rendered pizza/index.html.erb (12.0ms)
+Completed 200 OK in 117ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2016-02-06 16:40:57 +0100
+Processing by PizzaController#index as HTML
+  Rendered pizza/index.html.erb (0.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2016-02-06 16:44:49 +0100
+Processing by PizzaController#index as HTML
+  Rendered pizza/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4696ms (Views: 4695.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pizza.css?body=1" for 127.0.0.1 at 2016-02-06 16:44:55 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-06 16:44:55 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-06 16:44:55 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-06 16:44:55 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-02-06 16:44:55 +0100
+
+
+Started GET "/assets/pizza.js?body=1" for 127.0.0.1 at 2016-02-06 16:44:55 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-06 16:44:55 +0100
+
+
+Started GET "/assets/pizza.jpg" for 127.0.0.1 at 2016-02-06 16:44:55 +0100
+
+ActionController::RoutingError (No route matches [GET] "/assets/pizza.jpg"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (259.9ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (597.9ms)
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2016-02-06 16:46:29 +0100
+Processing by PizzaController#index as HTML
+  Rendered pizza/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 245ms (Views: 244.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pizza.js?body=1" for 127.0.0.1 at 2016-02-06 16:46:29 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-06 16:46:29 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-06 16:46:29 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-06 16:46:29 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-02-06 16:46:29 +0100
+
+
+Started GET "/assets/pizza.css?body=1" for 127.0.0.1 at 2016-02-06 16:46:29 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-06 16:46:29 +0100
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2016-02-06 16:46:52 +0100
+Processing by PizzaController#index as HTML
+  Rendered pizza/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 236ms (Views: 235.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-02-06 16:46:53 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-06 16:46:53 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-06 16:46:53 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-06 16:46:53 +0100
+
+
+Started GET "/assets/pizza.css?body=1" for 127.0.0.1 at 2016-02-06 16:46:53 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-06 16:46:53 +0100
+
+
+Started GET "/assets/pizza.js?body=1" for 127.0.0.1 at 2016-02-06 16:46:53 +0100
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2016-02-06 16:48:19 +0100
+Processing by PizzaController#index as HTML
+  Rendered pizza/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 475ms (Views: 473.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-06 16:48:20 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-06 16:48:20 +0100
+
+
+Started GET "/assets/pizza.js?body=1" for 127.0.0.1 at 2016-02-06 16:48:20 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-06 16:48:20 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-02-06 16:48:20 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-06 16:48:20 +0100
+
+
+Started GET "/assets/pizza.css?body=1" for 127.0.0.1 at 2016-02-06 16:48:20 +0100
+
+
+Started GET "/Pizzeria/app/views/pizza/pizza.jpg" for 127.0.0.1 at 2016-02-06 16:48:21 +0100
+
+ActionController::RoutingError (No route matches [GET] "/Pizzeria/app/views/pizza/pizza.jpg"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (319.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-13 18:30:43 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (10.0ms)
+Completed 200 OK in 239ms (Views: 201.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2016-02-13 18:30:58 +0100
+Processing by PizzaController#index as HTML
+  Rendered pizza/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4736ms (Views: 4734.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-13 18:31:04 +0100
+
+
+Started GET "/assets/pizza.css?body=1" for 127.0.0.1 at 2016-02-13 18:31:04 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-13 18:31:04 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-13 18:31:04 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-02-13 18:31:05 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-13 18:31:05 +0100
+
+
+Started GET "/assets/pizza.js?body=1" for 127.0.0.1 at 2016-02-13 18:31:05 +0100
+
+
+Started GET "/Pizzeria/app/views/pizza/pizza.jpg" for 127.0.0.1 at 2016-02-13 18:31:05 +0100
+
+ActionController::RoutingError (No route matches [GET] "/Pizzeria/app/views/pizza/pizza.jpg"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  c:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  c:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  c:/Ruby22-x64/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (40.1ms)
+  Rendered c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (41.1ms)
+  Rendered c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (3927.1ms)
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2016-02-15 22:58:18 +0100
+Processing by PizzaController#index as HTML
+  Rendered pizza/index.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 1120ms (Views: 1074.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pizza.css?body=1" for 127.0.0.1 at 2016-02-15 22:58:24 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-15 22:58:24 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-15 22:58:24 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-15 22:58:24 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-02-15 22:58:24 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-15 22:58:24 +0100
+
+
+Started GET "/assets/pizza.js?body=1" for 127.0.0.1 at 2016-02-15 22:58:24 +0100
+
+
+Started GET "/Pizzeria/app/views/pizza/pizza.jpg" for 127.0.0.1 at 2016-02-15 22:58:25 +0100
+
+ActionController::RoutingError (No route matches [GET] "/Pizzeria/app/views/pizza/pizza.jpg"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  c:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  c:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  c:/Ruby22-x64/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (100.1ms)
+  Rendered c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (5545.7ms)
+
+
+Started GET "/pizza/pedido?direccion=sfnbwrb&telefono=262245&tama%C3%B1o=Peque%C3%B1a&ingredientes%5B%5D=Anchoas&ingredientes%5B%5D=Jamon" for 127.0.0.1 at 2016-02-15 22:58:45 +0100
+Processing by PizzaController#pedido as HTML
+  Parameters: {"direccion"=>"sfnbwrb", "telefono"=>"262245", "tamaño"=>"Pequeña", "ingredientes"=>["Anchoas", "Jamon"]}
+  Rendered pizza/pedido.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 452ms (Views: 438.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-15 22:58:46 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-02-15 22:58:46 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-15 22:58:46 +0100
