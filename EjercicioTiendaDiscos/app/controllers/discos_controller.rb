@@ -8,7 +8,7 @@ class DiscosController < ApplicationController
     @disco.nombre = params[:nombre]
     @disco.artista = params[:artista]
     @disco.anio = params[:anio].to_i
-    @disco.save#Con esto salvamos el disco en la bd
+    @disco.save # Con esto salvamos el disco en la bd
     
     render :index
   end

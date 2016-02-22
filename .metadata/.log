@@ -3571,3 +3571,140 @@ java.lang.UnsupportedOperationException: Not supported yet.
 	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
 	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2016-02-16 19:10:28.093 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.8.0_74
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.aptana.git.core 4 0 2016-02-16 19:16:59.906
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Errors occurred while grabbing changed file listings
+
+!ENTRY com.aptana.git.core 4 0 2016-02-16 19:17:01.944
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Errors occurred while grabbing changed file listings
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-16 19:17:17.058
+!MESSAGE (eval):1: warning: variable $= is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+C:/Users/MarcoAntonio/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `eval': Is a directory @ rb_sysopen - C:\Marco\Curso Ruby on Rails - Talentum\ProyectosTalentum\.metadata\.plugins\com.aptana.ruby.core\2119259820\4 (Errno::EISDIR)
+	from C:/Users/MarcoAntonio/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `eval'
+	from C:/Users/MarcoAntonio/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `block (3 levels) in <main>'
+	from C:/Users/MarcoAntonio/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:179:in `each'
+	from C:/Users/MarcoAntonio/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:179:in `block (2 levels) in <main>'
+	from C:/Users/MarcoAntonio/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:178:in `open'
+	from C:/Users/MarcoAntonio/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:178:in `block in <main>'
+	from C:/Users/MarcoAntonio/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:152:in `each'
+	from C:/Users/MarcoAntonio/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:152:in `<main>'
+
+
+!ENTRY org.eclipse.ui 4 0 2016-02-16 19:27:49.488
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.jruby.exceptions.RaiseException: (Errno::EINVAL) =::)
+	at org.eclipse.swt.SWT.error(SWT.java:4397)
+	at org.eclipse.swt.SWT.error(SWT.java:4312)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:138)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at com.aptana.rcp.IDEApplication.start(IDEApplication.java:126)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: org.jruby.exceptions.RaiseException: (Errno::EINVAL) =::
+!SESSION 2016-02-22 19:39:06.764 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.8.0_74
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Marco\Curso Ruby on Rails - Talentum\ProyectosTalentum
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-22 19:41:05.991
+!MESSAGE (eval):1: warning: variable $= is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+C:/Users/MarcoAntonio/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `eval': Is a directory @ rb_sysopen - C:\Marco\Curso Ruby on Rails - Talentum\ProyectosTalentum\.metadata\.plugins\com.aptana.ruby.core\2119259820\4 (Errno::EISDIR)
+	from C:/Users/MarcoAntonio/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `eval'
+	from C:/Users/MarcoAntonio/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `block (3 levels) in <main>'
+	from C:/Users/MarcoAntonio/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:179:in `each'
+	from C:/Users/MarcoAntonio/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:179:in `block (2 levels) in <main>'
+	from C:/Users/MarcoAntonio/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:178:in `open'
+	from C:/Users/MarcoAntonio/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:178:in `block in <main>'
+	from C:/Users/MarcoAntonio/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:152:in `each'
+	from C:/Users/MarcoAntonio/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:152:in `<main>'
+
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-22 19:41:51.651
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Not supported yet.
+!STACK 0
+java.lang.UnsupportedOperationException: Not supported yet.
+	at org.jrubyparser.ast.LambdaNode.accept(LambdaNode.java:58)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitCallNode(InOrderVisitor.java:193)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitCallNode(SourceElementVisitor.java:230)
+	at org.jrubyparser.ast.CallNode.accept(CallNode.java:70)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitIterNode(InOrderVisitor.java:448)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitIterNode(SourceElementVisitor.java:805)
+	at org.jrubyparser.ast.IterNode.accept(IterNode.java:71)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitFCallNode(InOrderVisitor.java:351)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitFCallNode(SourceElementVisitor.java:609)
+	at org.jrubyparser.ast.FCallNode.accept(FCallNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitDAsgnNode(InOrderVisitor.java:243)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitDAsgnNode(SourceElementVisitor.java:322)
+	at org.jrubyparser.ast.DAsgnNode.accept(DAsgnNode.java:62)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitIterNode(InOrderVisitor.java:448)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitIterNode(SourceElementVisitor.java:805)
+	at org.jrubyparser.ast.IterNode.accept(IterNode.java:71)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitFCallNode(InOrderVisitor.java:351)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitFCallNode(SourceElementVisitor.java:609)
+	at org.jrubyparser.ast.FCallNode.accept(FCallNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitClassNode(InOrderVisitor.java:213)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitClassNode(SourceElementVisitor.java:260)
+	at org.jrubyparser.ast.ClassNode.accept(ClassNode.java:68)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitRootNode(InOrderVisitor.java:668)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitRootNode(SourceElementVisitor.java:848)
+	at org.jrubyparser.ast.RootNode.accept(RootNode.java:84)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexAST(RubyFileIndexingParticipant.java:73)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexSource(RubyFileIndexingParticipant.java:61)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.index(RubyFileIndexingParticipant.java:37)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)

@@ -1,0 +1,108 @@
+
+<h1>Bienvenidos a la Librería de Marco Antonio</h1>
+
+<form>
+	<fieldset>
+		<legend>Crear / Modificar Libro</legend>
+		<table>
+			<tr>
+				<td>Título:</td>
+				<td><input type="text" name="title" value="<%=@libro.title%>"/></td>
+			</tr>
+			<tr>
+				<td>Autor:</td>
+				<td><input type="text" name="author" value="<%=@libro.author%>"/></td>
+			</tr>
+			<tr>
+				<td>Género:</td>
+				<td><input type="text" name="genre" value="<%=@libro.genre%>"/></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Alta" formaction="/libro/create"></td>
+				<td><input type="submit" value="Modificar" formaction="/libro/update"></td>
+			</tr>
+		</table>
+	</fieldset>
+</form>
+<br/>
+<% if @libro != nil && @libro.errors.any? %>
+	<ul>
+		<%@libro.errors.full_messages.each do |error| %>
+			<li><%=error%></li>
+		<% end%>
+	</ul>
+<% end%>
+<br />
+<form action="/libro/delete">
+<table>
+	<tr>
+		<th>Borrar</th>
+		<th>Título</th>
+		<th>Autor</th>
+		<th>Género</th>
+		<th>Modificar</th>
+	</tr>
+	<%
+	libros = Libro.all
+	for libro in libros
+	%>
+	<tr>
+		<td><input type="checkbox" name="ids[]" value="<%=libro.id%>"/></td>
+		<td><%=libro.title%></td>
+		<td><%=libro.author%></td>
+		<td><%=libro.genre%></td>
+		<td><a href="/libro/update_view?id=<%=libro.id%>">Modificar</a></td>
+	</tr>
+	<% end %>
+</table>
+<input type="submit" value="Borrar">
+</form>
+<br />
+<form>
+	<fieldset>
+		<legend>Búsquedas</legend>
+		<table>
+			<tr>
+				<td>Género:</td>
+				<td><input type="text" name="genre" /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Buscar Por Género" formaction="/libro/search_genre"></td>
+			</tr>
+		</table><br />
+		<table>
+			<tr>
+				<td>Título:</td>
+				<td><input type="text" name="title" /></td>
+			</tr>
+			<tr>
+				<td>Autor:</td>
+				<td><input type="text" name="author" /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Buscar Por Título y Autor" formaction="/libro/search_author_title"></td>
+			</tr>
+		</table>
+	</fieldset>
+</form>
+
+<% if @searchResults != nil%>
+
+<table>
+	<tr>
+		<th>Título</th>
+		<th>Autor</th>
+		<th>Género</th>
+	</tr>
+	<%
+	for libro in  @searchResults
+	%>
+	<tr>
+		<td><%=libro.title%></td>
+		<td><%=libro.author%></td>
+		<td><%=libro.genre%></td>
+	</tr>
+	<% end %>
+</table>
+<% end %>
+
