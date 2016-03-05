@@ -15,9 +15,10 @@
 	</list>
 	<section name="ExternalProjectImportWizard">
 		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
-		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Marco\Curso Ruby on Rails - Talentum\ProyectosTalentum\MarcoAntonioLopezDeLaNieta"/>
 			<item value="C:\Marco\Curso Ruby on Rails - Talentum\ProyectosTalentum\EjercicioTiendaDiscos"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
